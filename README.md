@@ -1,1 +1,2 @@
 # AginerianInput
+This adds additional functionality on top of Unity's New Input System! For example, you can use this to set up combos with unlimited modifiers with each modifier being negatable in the Input Actions window. To use this feature, use the provided AxisWithModifiersComposite (or Vector2WithModifiersComposite) and add the NegateButtonProcessor to any modifier you want negated. To add more modifiers, just right-click on the existing modifier and select "Duplicate".
