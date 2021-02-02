@@ -2,8 +2,7 @@
   "name": "com.aginerian.input",
   "displayName": "Aginerian Input",
   "version": "0.1.0",
-  "unity": "2020.2",
-  "unityRelease": "2f1",
+  "unity": "2019.4",
   "dependencies": {
     "com.unity.inputsystem": "1.0.2"
   },
