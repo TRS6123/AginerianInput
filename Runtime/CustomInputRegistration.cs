@@ -3,9 +3,11 @@ using static UnityEngine.InputSystem.InputSystem;
 
 #if UNITY_EDITOR
 using UnityEditor;
+#endif
 
 namespace Aginerian.Input
 {
+#if UNITY_EDITOR
     [InitializeOnLoad]
 #endif
     public static class CustomInputRegistration
