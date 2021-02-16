@@ -15,7 +15,7 @@ namespace Aginerian.Input
 
         public override float ReadValue(ref InputBindingCompositeContext context)
         {
-            return context.ReadValue<float, ClosestFloatToZeroComparer>(modifier) != 0f ? context.ReadValue<float>(axis) : default;
+            return context.ReadValue<float, LowestMagnitudeFloatComparer>(modifier) != 0f ? context.ReadValue<float, HighestMagnitudeFloatComparer>(axis) : default;
         }
     }
 }
