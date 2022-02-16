@@ -1,0 +1,18 @@
+{
+  "name": "com.aginerian.input",
+  "displayName": "Aginerian Input",
+  "version": "0.1.1",
+  "unity": "2019.4",
+  "dependencies": {
+    "com.unity.inputsystem": "1.0.2"
+  },
+  "description": "Additional functionality built on top of the new Input System",
+  "keywords": [
+    "input",
+    "events",
+    "keyboard",
+    "mouse",
+    "gamepad"
+  ],
+  "type": "library"
+}
